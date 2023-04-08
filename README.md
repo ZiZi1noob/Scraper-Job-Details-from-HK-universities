@@ -13,7 +13,7 @@
 
 ## generate requirements.txt
 
-1. python -m  pipreqs.pipreqs --encoding utf-8  ./ --force
+1. ```python -m  pipreqs.pipreqs --encoding utf-8  ./ --force```
 
 To submit your work for autograding on the server, you need to generate a fresh submission token from the Coursera assignment web page. It's a text string you can copy and paste. Then, you need to run the submission script from your workspace directory:
 
