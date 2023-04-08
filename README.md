@@ -1,13 +1,19 @@
 
 # SLP Development Manual
 
-## Basic tips
+## install CUDA (option)
 
-Read the specification document thoroughly on Coursera.
+1. check your GPU version. e.g. NVIDIA GeForce RTX 3060 Ti
 
-Create a high level design covering all scenarios / test cases before you start coding.
+2. google 'CUDA Capability GPU': https://developer.nvidia.com/cuda-gpus and find the compatible version of CUDA e.g. >=8.6
 
-## How to submit for grading
+3. download CUDA toolkit: https://developer.nvidia.com/cuda-downloads
+
+4. download pytorch: https://pytorch.org/
+
+## generate requirements.txt
+
+1. python -m  pipreqs.pipreqs --encoding utf-8  ./ --force
 
 To submit your work for autograding on the server, you need to generate a fresh submission token from the Coursera assignment web page. It's a text string you can copy and paste. Then, you need to run the submission script from your workspace directory:
 
